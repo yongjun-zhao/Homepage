@@ -5,6 +5,28 @@ body {
     BlinkMacSystemFont, "Segoe UI", Roboto;
 }
 
+header.top {
+    background-color: #675c47;
+    margin: 10px 10px 0px 10px;
+    height: 90px;
+    
+}
+
+nav {
+    background-color: #efe5d0;
+    margin: 10px 10px 0px 10px;
+}
+
+nav ul {
+    margin: 0px;
+    list-style-type: none;
+    padding: 5px 0px 5px 0px;
+}
+
+nav ul li {
+    display: inline;
+    padding: 5px 10px 5px 10px;
+}
 .mainreading {
     border-color: black;
     background-image: url(Reading/002_reading.jpeg);
