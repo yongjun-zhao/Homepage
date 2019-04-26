@@ -1,0 +1,16 @@
+body {
+    text-align: center;
+    font-family: Georgia, "Times New Roman", serif, sans-serif,
+    "Microsoft YaHei",  STXihei, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto;
+}
+
+.mainreading {
+    border-color: black;
+    background-image: url(/Reading/002_reading.jpeg);
+    background-repeat: no-repeat;
+    padding: 75px; background-position: center;
+    background-color: beige;
+    font-size: 200%;
+    color: yellowgreen;
+}
