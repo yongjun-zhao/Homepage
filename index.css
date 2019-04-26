@@ -7,7 +7,7 @@ body {
 
 .mainreading {
     border-color: black;
-    background-image: url(/Reading/002_reading.jpeg);
+    background-image: url(Reading/002_reading.jpeg);
     background-repeat: no-repeat;
     padding: 75px; background-position: center;
     background-color: beige;
