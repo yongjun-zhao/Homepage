@@ -6,66 +6,82 @@
     </head>
 
     <body>
-        <div id="allcontent">
-                
-            <div id="header">
-                <h1>欢迎您光临我的网页!<br>
-                    Welcome to my website!
-                </h1>
-            </div>
-            <!--<nav> 
-                <ul> 
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="">中文</a></li>
-                    <li><a href="">English</a></li>
-                </ul>
-            </nav> --> 
-            <div id="leftSide">
-                    <p></p>
-                    <p><h2>读书</h2></p>
-                        <p><ul>读书有何用？</ul>
-                        <ul>经典推荐</ul>
-                        <ul>诗情画意</ul>
-                        <ul>网络强文</ul></p>
-                    <p><h2>冥想</h2></p>
-                        <p>what is meditation</p>
-                        <p>matitatie together</p>
-                    <h2>Coding</h2>
-                        <p>Html/CSS</p>
-                        <p>Python</p>
+        <header>            
+            <h1>欢迎您光临我的网页!<br>
+                Welcome to my website!
+            </h1>
+        </header> 
 
-                    <h2>Investement</h2>
-                        <p>Stock</p>
-                </div>     
+        <nav> 
+        <ul> 
+            <li class="selected"><a href="index.html">HOME</a></li>
+            <li><a href="">中文</a></li>
+            <li><a href="">English</a></li>
+        </ul>
+        </nav>
 
+        <div id="tableContainer">
+        <div id="tableRow"> 
+            <section id="leftSide">
+                    
+                    <p><h3>读书</h3></p>
+                        <ul>
+                            <li>为何读书？</li>
+                            <li>经典推荐</li>
+                            <li>诗情画意</li>
+                            <li>网络强文</li>
+                        </ul>
 
-            <div id="main">
-                    <h1>My Hobbies</h1>
+                    <h3>冥想</h3>
+                    <ul><li>冥想是啥</li>
+                    <li>练习心得</li></ul>
+
+                    <h3>编程</h3>
+                    <ul>
+                        <li>Html/CSS</li>
+                        <li>Python</li>
+                        <li>机器学习</li>
+                        <li>人工智能</li>
+                    </ul>
+
+                    <h3>投资致富</h3>
+                    <ul>                        
+                        <li>股市真经</li>
+                    </ul>
+            </section>     
+
+            <section id="main">
+                    <h1 class="biaoti">我的业余爱好</h1>
+
                 <p class="mainreading">
                     万般皆下品<br>
-                    唯有读书高 </p>
-                <p>
-                    <img src="Meditation/001_meditation.jpeg" alt="Meditation picture">
+                    唯有读书高<br>
                 </p>
-                <p>
-                    <img src="Coding/001_coding.jpeg" alt="Coding picture">
-                </p>
-                <p>
-                    <img src="Stock/002_investment.jpeg" alt="Stock chart picture">
-                </p>
-            </div>
 
-
-
-            <div id="footer">
-                声明:<br>
-                <p>
-                <h5>本站纯为个人娱乐，不做任何商业用途。文章多来自互联网。并不完全代表本人观点和主张。
-                如果你发现我侵犯了你的知识产权，请及时联系我更正。</h5>
+                <p class="meditation">
+                        了解内心才<br>
+                        能认识世界<br>
                 </p>
-            </div>
+
+                <p class="coding">
+                    人工智能来袭<br>
+                    掌握硅基密码<br>
+                </p>
+
+               <p class="investment">
+                    投资理财<br>
+                    守住财富<br>
+                </p>
+            </section>
+      
         </div>
-
+        </div>
+        <footer>
+                <span><em>声明:</em></span>                
+                本站纯为个人娱乐，不做任何商业用途。文章多来自互联网。<br>并不完全代表本人观点和主张。
+                如果你发现我侵犯了你的知识产权，请及时联系我更正。
+                </p>
+            </footer>
     </body>
 
 </html>
