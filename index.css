@@ -11,7 +11,7 @@ header{
     margin: 0px 10px 0px 10px;
     height: 100px;
     text-align: center;
-    width: 1080px;
+    width: 920px;
 }
 
 div#tableContainer {
@@ -31,11 +31,11 @@ section#leftSide {
     display: table-cell;
     text-align: left;
     background-color: #efe5d0;
-    padding: 20px 20px 200px 20px;
+    padding: 20px 20px 120px 20px;
     /*margin: 0px 10px 0px 0px;*/
     float: left;
-    width: 140px;
-    font-size: 120%;
+    width: 160px;
+    font-size: 150%;
     /*border: 5px solid black;*/
 }
 
@@ -60,7 +60,7 @@ section#main {
     font-size: 200%;
     color: yellowgreen;
     padding: 30px 150px 45px 150px;
-    margin: 0px;
+    margin: 10px;
 }
 
 .meditation {
@@ -70,7 +70,7 @@ section#main {
     font-size: 200%;
     color: yellowgreen;
     padding: 30px 10px 45px 10px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .coding {
@@ -80,7 +80,7 @@ section#main {
     font-size: 200%;
     color: yellowgreen;
     padding: 45px 10px 30px 10px;
-    margin: 5px;
+    margin: 10px;
 }
 
 .investment {
@@ -90,7 +90,7 @@ section#main {
     font-size: 200%;
     color: yellowgreen;
     padding: 30px 10px 30px 10px;
-    margin: 5px;
+    margin: 10px;
 }
 
 footer {
@@ -99,6 +99,7 @@ footer {
     text-align: center;
     padding: 5px;
     margin: 1px;
+    font-size: 200%；
 }
 
 /*#allcontent {
